@@ -3,9 +3,7 @@ pipeline {
      stages {
         stage("Build") {
             steps {
-				sh "sudo yes | cp -rf ${WORKSPACE}/src/main/resources/test_application.yml ${WORKSPACE}/src/main/resources/application.yml"
-                sh "sudo yes | cp -rf pom.xml"
-                sh "sudo mvn clean install"
+		echo "Building..."
             }
         }
          stage("Deploy") {
