@@ -11,6 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing the application...'
+                echo 'Say testing'
             }
         }
         stage('Deploy') {
