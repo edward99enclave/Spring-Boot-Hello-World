@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the application...'
+                echo 'Saygoodbye - Building the application...'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing the application...'
+                echo 'Saygoodbye - Testing the application...'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying the application.....'
+                echo 'Saygoodbye - Deploying the application.....'
             }
         }
     }
