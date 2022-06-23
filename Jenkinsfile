@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                echo 'Change code on feature-say-hello branch...'
             }
         }
         stage('Test') {
